@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+
+/* Kommentaren här */
+
+body{
+	
+	
+	font-family:"roboto"; 
+}
+
+a {
+	transition: all 1s;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+
+.box{
+	width: 30%;
+	height: 30%;
+	box-shadow: 5px 5px 10px #555;
+}
+
+button {
+	background-color: transparent;
+	border: 2px solid #e55;
+	padding: 10px;
+	color: black;
+	font-family: "roboto"
+	border-radius: 50px;
+	font-size: 15px;
+	transition: all 0.5s;
+}
+
+button:hover {
+	background-color: #e55;
+	color: white;
+}

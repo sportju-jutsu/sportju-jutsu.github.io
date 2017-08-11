@@ -1,0 +1,56 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Permanent+Marker" rel="stylesheet">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Sport ju-jutsu</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+ <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Hem</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Fakta</a></li>
+                    <li><a href="menyval2.html">Min klubb</a></li>
+                    <li><a href="menyval3.html">Om mig</a></li>
+                </ul>
+            </div>
+        </nav>
+
+<h1 class=rubrik > Fakta </h1>
+
+<h3 class=undertext> Här ska det stå fakta </h3>
+
+<h4 class="undertext">Sport Ju-Jutsu är en ganska ny jujutsustil. Den skapades 1997 av Ingemar Sköld och <br> Ricard Carneborn.  Sport Ju-Jutsun är speciellt inriktad på tävling och idrott. "Sport, <br> Motion och Självförsvar" är tre viktiga ledord. Stilens system innehåller slag, sparkar, <br> kast och golvkampstekniker. Många brukar förknippa sport ju-jutsu med tävlings ju-jutsu <br> men det är två olika sorters ju-jutsu. </h4>
+
+<h4 class="undertext">I barnsystemet finns det 6 olika bältesgrader: vitt. gult, oranget, grönt, blått och <br> brunt. Nu kanske du tycker att det är konstigt att det inte finns något svart bälte men <br> så är det. det finns inget svart bälte i barnsystemet så brunt är det högsta bältet i <br> barnsystemet. men om du har brunt barnbälte och är tillräckligt gammal så kan du göra <br> en vuxen gradering vilket innebär att du gör en gradering där du visar upp allt du <br> kan och sedan får du ett vuxenbälte som antagligen är en eller två grader under det som <br> du hade innan.</h4>
+
+
+
+</body>
+</html>
